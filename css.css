@@ -110,6 +110,7 @@ html, body {
   position: absolute;
   top: 0.4rem;
   right: 0.4rem;
+  color: gray;
 }
 
 .container_body .container_main section article img {
@@ -138,5 +139,21 @@ html, body {
 #archivado{
   top:90px;
 }
+#mute{
+    position: absolute;
+    top: 1.6rem;
+    right: 0.4rem;
+    font-size: 1.4rem;
+    color: gray;
+   
+}
+#imagen{
+  color: gray;
+  font-size: 1.5rem;
+}
+#ha{
+  padding: 3px;
+}
+
 
 /*# sourceMappingURL=css.css.map */
