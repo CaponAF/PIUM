@@ -114,33 +114,10 @@ html, body {
   padding-right: 5px;
 }
 
-footer{
-display: flex;
-flex-direction: row;
-}
-
-#cont-input{
-  display: flex;
-  flex-direction: row;
-  height: 2rem;
-  width: 90%;
-  border-radius: 2rem;
-  padding: 0.5rem;
-  background-color: white;
-  justify-content: flex-end;
-
-}
-#caja {
-
- background-color: transparent;
- border: none; 
- width: 85%;
-  
-}
-
 #tac {
- 
-  right: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
   width: 3rem;
   height: 3rem;
   color: white;
@@ -150,18 +127,25 @@ flex-direction: row;
   background-color: #128c7e;
 }
 
-.material-icons {
-  left: 2rem;
- color: gray;
- flex-flow: row;
- display: flex;
-   
-   top: 38rem;
-
+#caja {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  height: 1rem;
+  line-height: 2;
+  border-radius: 1rem;
+  background-color: white;
+  left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  width: mx-content;
 }
- 
-
-  
 
 .linea {
   border-bottom: 2px solid white;
@@ -198,6 +182,11 @@ flex-direction: row;
       -ms-flex-flow: row;
           flex-flow: row;
   color: #ffffff;
+  left: 1rem;
+}
+
+.nav-con .ico {
+  color: #ffffff;
 }
 
 #red {
@@ -211,15 +200,52 @@ flex-direction: row;
   display: flex;
 }
 
+#camara {
+  right: 7rem;
+  width: 3rem;
+  height: 3rem;
+  color: gray;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 40rem;
+}
 
+#gancho {
+  left: 70rem;
+  color: gray;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 38rem;
+}
 
-
+#gancho .material-icons {
+  left: 2rem;
+  color: gray;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 38rem;
+}
 
 .c2 {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
- 
+  border: 1px solid red;
 }
 
 #visto {
@@ -246,10 +272,17 @@ flex-direction: row;
   background-color: #dcf8c6;
   border-radius: 2rem;
   padding: 0.5rem;
-  
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   position: relative;
+}
+
+#tonta {
+  width: 5rem;
+  height: 10rem;
 }
 /*# sourceMappingURL=css.css.map */
